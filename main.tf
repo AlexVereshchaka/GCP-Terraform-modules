@@ -1,5 +1,5 @@
 provider "google" {
-   credentials = file("Creade_gcp.json")
+   credentials = file("gcp-creds.json")
    project     = "dauntless-glow-338711"
    region      = "us-weast1"
    zone = "us-weast1-b"
@@ -18,8 +18,6 @@ natwork_interface {
 }
 }
 
-data "google_active_folder" "department1" {
-  display_name = "Department 1"
-  parent       = "organizations/1234567"
-}
+
+
 

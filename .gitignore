@@ -1,3 +1,4 @@
 .git
 .terraform.lock.hcl
 .terraform
+gcp-creds.json
